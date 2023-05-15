@@ -77,8 +77,9 @@ We can also see here in our Ganahce that we were able to mine multiple blocks us
 
 ![image](https://github.com/reidema/Group_5_Project/assets/117589787/40f803fc-770e-4f75-8b4d-85ae45013f53)
 
-
-
+## User Interface ## 
+We then use React.js to create a user interface for our crypto platform.
+![Image](./Images/user_interface.jpg)
 
 
 
