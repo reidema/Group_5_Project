@@ -69,6 +69,10 @@ We can use our metamask with our smart contract to interact with the block chain
 
 ![image](https://github.com/reidema/Group_5_Project/assets/117589787/bd911a83-f3a7-42b1-bfc8-8b12292c6ad3)
 
+Here we can see the metamask transaction go through and deduct ether from our initial 100 balance
+
+![image](https://github.com/reidema/Group_5_Project/assets/117589787/eaeffee2-18c5-4886-affa-d75976be4742)
+
 We can also see here in our Ganahce that we were able to mine multiple blocks using our smart contract
 
 ![image](https://github.com/reidema/Group_5_Project/assets/117589787/40f803fc-770e-4f75-8b4d-85ae45013f53)
