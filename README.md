@@ -1,34 +1,31 @@
-# Group_5_Project
-## Carbon Neutral Token
+# Group_5_Project #
+## Carbon Neutral Token ##
 
-TerraCarbon is a platform for carbon credit buyers and sellers to interact in the most meaningful way towards a central goal of improving the planet. Carbon neutrality is a powerful goal to be conquered, overcome and something to be looked back on as a lesson. We will be doing so by creating a fungible token that we will be using as the currency for trade.
+TerraCarbon is a platform that facilitates carbon credit trading, allowing buyers and sellers to interact and contribute to the goal of improving the planet. Our platform introduces a fungible token that serves as the currency for carbon credit trade.
 
-## Procedure
+## Procedure ##
 
-Create a jupyter notebook to identify users’ and their carbon emissions. (pandas, API)
-Define our token specs: Name, symbol, total supply, and decimal places.. 
-Write up a smart contract: Include basic functions of a ERC-20 token, such as transfer, approve, and balanceOf. 
-Deploy the smart contract on Ethereum using Remix IDE.
-Create a user interface: Create a user interface that will enable users to interact with the smart contract and trade carbon credits.(Using React)
-Facilitate carbon credit trading: Create a decentralised exchange (DEX) on the blockchain. DEX can allow users to buy and sell carbon credits using your token.
-Interact with our deployed smart contract to transfer and withdraw funds. 
-Create a video demonstrating all of these steps.
+* Create a Jupyter Notebook using pandas and APIs to identify users and their carbon emissions.
+* Define token specifications: Name, symbol, total supply, and decimal places.
+* Write a smart contract with basic ERC-20 token functions (transfer, approve, balanceOf).
+* Deploy the smart contract on Ethereum using Remix IDE.
+* Develop a user interface with React to enable users to interact with the smart contract and trade carbon credits.
+* Create a decentralized exchange (DEX) on the blockchain for carbon credit trading using the token.
+* Interact with the deployed smart contract to transfer and withdraw funds.
+* Produce a video demonstrating the entire process.
 
+## Why is this important? ##
 
-## Why is this important? 
+Trading carbon credits with our own token offers several advantages over traditional methods:
 
-Using your own tokens for trading carbon credits can provide several advantages over traditional methods of trading. Here are some reasons why:
+- Lower Transaction Costs: By using your own tokens, you can avoid the transaction fees charged by third-party intermediaries such as banks or exchanges. This can significantly reduce the cost of trading and make it more accessible for smaller investors.
+- Faster Settlement: Traditional carbon credit trading can take several days to settle, while using tokens can enable near-instant settlement, making the process faster and more efficient.
+- Increased Transparency: Tokens are built on blockchain technology, which provides a tamper-proof ledger that can be easily audited. This can increase transparency in the trading process and help to prevent fraud.
+- Improved Liquidity: Tokens can be traded 24/7, which can increase liquidity and make it easier to buy and sell carbon credits.
+- More Accessible: By using tokens, carbon credit trading can become more accessible to a wider range of investors, including those in countries where traditional financial systems are not well-established.
+- It's important to note that using your own tokens for carbon credit trading may also have some disadvantages, such as the potential for price volatility and the need to ensure that the tokens comply with regulatory requirements. However, with proper planning and execution, using tokens can be a viable option for carbon credit trading.
 
-Lower Transaction Costs: By using your own tokens, you can avoid the transaction fees charged by third-party intermediaries such as banks or exchanges. This can significantly reduce the cost of trading and make it more accessible for smaller investors.
-Faster Settlement: Traditional carbon credit trading can take several days to settle, while using tokens can enable near-instant settlement, making the process faster and more efficient.
-Increased Transparency: Tokens are built on blockchain technology, which provides a tamper-proof ledger that can be easily audited. This can increase transparency in the trading process and help to prevent fraud.
-Improved Liquidity: Tokens can be traded 24/7, which can increase liquidity and make it easier to buy and sell carbon credits.
-More Accessible: By using tokens, carbon credit trading can become more accessible to a wider range of investors, including those in countries where traditional financial systems are not well-established.
-It's important to note that using your own tokens for carbon credit trading may also have some disadvantages, such as the potential for price volatility and the need to ensure that the tokens comply with regulatory requirements. However, with proper planning and execution, using tokens can be a viable option for carbon credit trading.
-
-
-
-## ELON INTRODUCTION SCRIPT
+## ELON INTRODUCTION SCRIPT ##
 
 Hello FinTech Students,
 
@@ -43,6 +40,7 @@ Carbon credits can be a useful tool in the fight against climate change, but the
 
 Now, I’d like to pass it over to my good friends, Norman, Jenn, Rei, Moh and Sujatha to talk more about Carbon Credits and the Smart Contract system they’ve created…
 
+![Elon_Musk_Video](https://github.com/zel1001/Group_5_Project/blob/main/Images/elon_final.png)](https://www.youtube.com/watch?v=rEMYKjlyqEk)
 
 ## Smart Contract and ERC Standard ##
 
@@ -78,22 +76,18 @@ We can also see here in our Ganahce that we were able to mine multiple blocks us
 ![image](https://github.com/reidema/Group_5_Project/assets/117589787/40f803fc-770e-4f75-8b4d-85ae45013f53)
 
 ## User Interface ## 
-We then use React.js to create a user interface for our crypto platform.
+
+To allow for a seamless interaction with the deployed ERC-20 smart contract, we use React.js. It leverages the useState and useEffect hooks to manage state and perform various actions. This component empowers users by enabling them to input the address of an ERC-20 contract and retrieve essential information like the token's name, symbol, and total supply. Users can also check their account balance of their TerraCarbon tokens and even transfer them to another address.
+
 ![Image](./Images/user_interface.jpg)
 
+## Conclusion ## 
+
+In the Carbon Neutral Token project, we have developed a platform for carbon credit trading using our fungible token called TerraCarbon. We started by creating a Jupyter notebook to identify users' carbon emissions. Then, we defined the specifications of our token, including its name, symbol, total supply, and decimal places. We wrote a smart contract using the ERC-20 token standard and deployed it on the Ethereum blockchain using Remix IDE. To enable users to interact with the smart contract, we created a user interface using React.js. In the future, the Carbon Neutral Token project has the potential for market adoption, integration with carbon offset projects, expansion to other blockchain platforms and an enhanced user experience. By pursuing these directions, the Carbon Neutral Token project can continue to contribute to global efforts in mitigating climate change and promoting sustainability.
 
 
+## BACKGROUND ##
 
-
-
-
-
-
-
-
-
-
-# BACKGROUND
 Beginning our project, we wanted to provide some background information on why Carbon Credits are something to be knowledgable about.  We started by using Python to create some graphs on emissions and the population world-wide as well as by country.
 
 The resulting graphs show the increasing population and emissions throughout the world.  
@@ -131,8 +125,11 @@ Carbon Footprint API - https://rapidapi.com/carbonandmore-carbonandmore-default/
 
 Hannah Ritchie, Max Roser and Pablo Rosado (2020) - "CO₂ and Greenhouse Gas Emissions". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/co2-and-greenhouse-gas-emissions' [Online Resource]
 
+D-id for Elon Musk Animation - https://www.d-id.com/?utm_term=d-id&utm_campaign=Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=6149207258&hsa_cam=17780208183&hsa_grp=141566902480&hsa_ad=634015141111&hsa_src=g&hsa_tgt=kwd-369030435047&hsa_kw=d-id&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad=1&gclid=Cj0KCQjwsIejBhDOARIsANYqkD2FT7uHnYIcU7DzPUd8nPzSrVpN7gz-ZL8j9TZrehGsBuGs6iqvpcgaAu1dEALw_wcB
 
+11ElevenLabs for Voice Generator - https://beta.elevenlabs.io/speech-synthesis
 
+Veed.io for subtitles - https://www.veed.io/
 
 
 
